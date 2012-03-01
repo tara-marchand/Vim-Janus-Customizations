@@ -1,0 +1,24 @@
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" Read FreeMarker templates as HTML
+au BufRead,BufNewFile *.ftl set filetype=html
+
+" zencoding settings
+let g:user_zen_settings = {
+  \  'html' : {
+  \    'default_attributes' : {
+  \     'img': [{'src': ''}, {'width': ''}, {'height':''}, {'alt': ''}]
+  \    }
+  \  }
+  \}
+
+" folding settings
+" http://smartic.us/2009/04/06/code-folding-in-vim/
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+
+color synic
