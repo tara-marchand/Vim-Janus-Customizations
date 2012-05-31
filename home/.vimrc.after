@@ -1,6 +1,10 @@
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+"set tabstop=4
+"set shiftwidth=4
+"set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
 
 " Read FreeMarker templates as HTML
 au BufRead,BufNewFile *.ftl set filetype=html
@@ -20,5 +24,8 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=10      "deepest fold is 10 levels
 set nofoldenable        "dont fold by default
 set foldlevel=1         "this is just what i use
+
+" cursor highlighting
+set cursorline
 
 color synic
