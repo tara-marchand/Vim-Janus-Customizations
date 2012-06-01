@@ -1,0 +1,15 @@
+[submodule "home/.janus/jshint"]
+	path = home/.janus/jshint
+	url = https://github.com/jshint/jshint
+[submodule "home/.janus/zencoding-vim"]
+	path = home/.janus/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim
+[submodule "home/.janus/vim-less"]
+	path = home/.janus/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "home/.janus/vcscommand"]
+	path = home/.janus/vcscommand
+	url = https://github.com/vim-scripts/vcscommand.vim
+[submodule "home/.janus/vim-surround"]
+	path = home/.janus/vim-surround
+	url = https://github.com/tpope/vim-surround
