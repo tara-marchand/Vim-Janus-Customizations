@@ -13,3 +13,6 @@
 [submodule "home/.janus/vim-surround"]
 	path = home/.janus/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "home/.janus/AutoComplPop"]
+	path = home/.janus/AutoComplPop
+	url = https://github.com/vim-scripts/AutoComplPop.git
